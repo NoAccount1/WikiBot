@@ -1,20 +1,24 @@
 {
-  "name": "wikibot",
-  "version": "1.0.0",
-  "description": "A little bot to manage WikiCraft Minecraft server",
-  "main": "bot.js",
-  "scripts": {
-    "test": "node bot.js",
-    "start": "node bot.js"
-  },
-  "keywords": [
-    "discord.js"
-  ],
-  "author": "MouaMem",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "sqlite3": "^5.0.0"
-  }
+    "name": "wikibot",
+    "version": "1.0.0",
+    "description": "A little bot to manage WikiCraft Minecraft server",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bot.js"
+    },
+    "keywords": [
+        "discord.js"
+    ],
+    "author": "MouaMem",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0",
+        "sqlite3": "^5.0.0"
+    },
+    "engines": {
+        "node": "14.*",
+        "npm": "*"
+    }
 }
