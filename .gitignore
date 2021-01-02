@@ -1,4 +1,4 @@
 /node_modules
 /.env
 /package-lock.json
-/code.code-workspace
+/wikibot.code-workspace
