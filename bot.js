@@ -18,6 +18,7 @@ client.on('ready', () => {
     // client.user.setUsername('WikiBot')
     // client.user.setAvatar('./assets/ServerIcon.png')
 });
+
 client.on('message', message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
