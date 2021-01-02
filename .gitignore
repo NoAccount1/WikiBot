@@ -2,3 +2,4 @@
 /.env
 /config.json
 /package-lock.json
+/code.code-workspace
