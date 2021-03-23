@@ -1,7 +1,7 @@
 {
     "name": "wikibot",
     "version": "1.0.0",
-    "description": "A little bot to manage WikiCraft Minecraft server",
+    "description": "A small bot to manage WikiCraft Minecraft server",
     "main": "bot.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,8 +13,13 @@
     "author": "MouaMem",
     "license": "ISC",
     "dependencies": {
+        "colors": "^1.4.0",
+        "discord-slash-commands-client": "^1.1.1",
         "discord.js": "^12.5.1",
         "dotenv": "^8.2.0",
+        "node-color-log": "^5.2.0",
+        "node-fetch": "^2.6.1",
+        "request": "^2.88.2",
         "sqlite3": "^5.0.0"
     },
     "engines": {
